@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /boot
+student:
+ name: Lily
+ age: 18
+ content: "My name is ${student.name},i'm ${student.age} years old ."
